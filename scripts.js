@@ -6,7 +6,7 @@ window.addEventListener('load', () => {
 
 async function fetchDiscordInfo() {
     const discordId = '885570068900102184';
-    const apiUrl = `https://discord-lookup-api-new-liard.vercel.app/v1/user/${discordId}`;
+    const apiUrl = `https://discord-lookup-api-one-coral.vercel.app/v1/user/${discordId}`;
    
         try {
             const response = await fetch(apiUrl);
