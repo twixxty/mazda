@@ -126,6 +126,15 @@ body, html {
 }
 
 @media (max-width: 768px) {
+    .video-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1; 
+        filter: blur(100px);
+    }
     .content-section {
         width: 100%;
     }
